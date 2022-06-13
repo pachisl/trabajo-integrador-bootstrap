@@ -140,19 +140,26 @@ footer{
     text-decoration: none;
     color: white;
 }
+
+.formulario_ticket{
+    margin-left:20%;
+    margin-right:20%;
+}
+.lbl_pagar{
+    margin-left:0!important;
+    margin-right:0!important;
+}
+
 @media (max-width:980px) { 
     .menu_footer {
         padding-left: 0;
         padding-right: 0;
     }
     .section__cards {
-    width: 600px;
-    margin-left: 10%;
-    margin-right: 20%;
-
-
-
-} 
+        width: 600px;
+        margin-left: 10%;
+        margin-right: 20%;
+    } 
 }
 @media (max-width:760px){
         .menu_footer {
@@ -162,7 +169,8 @@ footer{
 @media (max-width:760px){
     .codoacodo__img {
         width: 80px;
-        margin-left: 10px;}
+        margin-left: 10px;
+    }
 }
 @media (max-width:760px){
  .texto__carousel {
@@ -171,37 +179,38 @@ footer{
         text-align: right;
         font-size: 0,8rem;
         color: white;
-        z-index: 5;}
+        z-index: 5;
+    }
 .section__cards{
-    width: 600px;
-    margin-left: 10%;
-    margin-right: 20%; 
-}         
-.input__pantalla{
-    flex-direction: column;
-    color: white;
-    border: groove;
-    margin-top: 30px ;
-    width: 110px;
-    text-align: center;
-}
-.pantalla__dividida{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.pantalla__dividida__texto {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+        width: 600px;
+        margin-left: 10%;
+        margin-right: 20%; 
+    }         
+    .input__pantalla{
+        flex-direction: column;
+        color: white;
+        border: groove;
+        margin-top: 30px ;
+        width: 110px;
+        text-align: center;
+    }
+    .pantalla__dividida{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pantalla__dividida__texto {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     
-}
-.imagen__pantalla{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    }
+    .imagen__pantalla{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     
-}  
+    }  
 }
 @media (max-width:580px) {
     .texto__carousel {
@@ -212,42 +221,62 @@ footer{
         color: white;
         z-index: 3;
     }
-.input__pantalla{
-    flex-direction: column;
-    color: white;
-    border: groove;
-    margin-top: 30px ;
-    width: 110px;
-    text-align: center;
-}
+    .input__pantalla{
+        flex-direction: column;
+        color: white;
+        border: groove;
+        margin-top: 30px ;
+        width: 110px;
+        text-align: center;
+    }
 
 
-.pantalla__dividida{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.pantalla__dividida__texto {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    .pantalla__dividida{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pantalla__dividida__texto {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     
-}
-.imagen__pantalla{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    }
+    .imagen__pantalla{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     
-}  
-.section__cards {
-    width: 400px!important; 
-    justify-content: center;
-
-
-
+    }  
+    .section__cards {
+        width: 400px!important; 
+        justify-content: center;
+    }
 }
 
+    .cards__js{
+        margin-top: 30px;
+    }
+    .cards__center{
+    
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
 
+    .card__tamaño{
+    
+        height: 210px
+    }
+    .header__conf{
+        padding-left: 50px;
+    }
+
+@media (max-width:580px){
+#div__form{
+    
+    padding-left: 30px;
+}    
 }
 
 
